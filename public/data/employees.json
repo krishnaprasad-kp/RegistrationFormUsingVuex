@@ -1,0 +1,37 @@
+[{
+    "firstname": "Haritha",
+    "lastname": "Vasanthula",
+    "email": "vrharitha1998@gmail.com",
+    "password": "asdfgh",
+    "dob": "12-05-1998",
+    "gender": "female",
+    "hobbies": ["Writing", "Painting"],
+    "country": "India",
+    "state": "Andhra Pradesh",
+    "address": "Vizag 530046"
+},
+{
+    "firstname": "Damodar",
+    "lastname": "Devarasetti",
+    "email": "damodarlucky23@gmail.com",
+    "password": "Samanta0",
+    "dob": "23-06-1993",
+    "gender": "male",
+    "hobbies": ["Playing Cricket", "Snookers"],
+    "country": "India",
+    "state": "Andhra Pradesh",
+    "address": "Srikakulam 532443"
+}
+,
+{
+    "firstname": "Neha",
+        "lastname": "Gandhi",
+        "email": "Nduggirala@gmail.com",
+        "password": "cdlx2020",
+        "dob": "20-04-1999",
+        "gender": "Female",
+        "hobbies": ["Watching movies"],
+        "country": "India",
+        "state": "Mumbai",
+        "address": "Chinna Waltair 530003"
+}]

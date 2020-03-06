@@ -155,7 +155,7 @@ export default {
       if (con) this.states = con.states;
     },
       saveEmployee(){
-            if(this.isValidEmployee()){
+           if(this.isValidEmployee()){
             alert('Employee Added Successfully')
             this.$store.dispatch('addEmployee');
             }
@@ -170,6 +170,9 @@ export default {
         for(let field in employee)
         if(!employee[field])
         return false; 
+        return true
+        
+
     }
   }
 };

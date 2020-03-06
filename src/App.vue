@@ -14,6 +14,10 @@
 <script>
 export default {
   name: 'App',
+  mounted(){
+               this.$store.dispatch('initializeEmployeeList')
+        
+  }
 }
 </script>
 
@@ -77,12 +81,8 @@ li a:hover {
   border: 1px solid ;
   border-collapse: collapse;
 }
-.employee-table tr{
-  display: flex;
-}
-.employee-table th,.employee-table td{
-  width:100%;
-}
+
+
 
 
 </style>

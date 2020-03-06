@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from 'axios'
 Vue.use(Vuex)
 export const store = new Vuex.Store({
     state:{
-    EmployeeList: [],
+    EmployeeList:[],
     EmployeeData: {
         firstname: "",
         lastname: "",
@@ -48,6 +49,9 @@ actions:{
     },
     reset:context=>{
         context.commit('reset')
+    },
+    initializeEmployeeList:context=>{
+        axios.get("http://localhost:8080/data/employees.json").then(response=>{context.state.EmployeeList=response.data});
     }
 }
 });

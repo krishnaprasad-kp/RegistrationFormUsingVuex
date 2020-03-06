@@ -13,7 +13,11 @@ export default {
         EmployeeList(){
             return this.$store.state.EmployeeList
         }
-    }
+    },
+    //  created(){
+    //         console.log('hello')
+    //         this.$store.dispatch('initializeEmployeeList')
+    //     }
 }
 </script>
 <style scoped>
